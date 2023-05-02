@@ -1,0 +1,20 @@
+encoding  utf-8
+survey ManillaThrilla -title "Manilla Thrilla Cave"
+  import "Manilla.plt"
+  input manilla_rope_cave-1p.th2
+  input manilla_rope_cave-1s.th2
+
+  map planMap
+    manilla_rope_cave-1p
+    break
+    manilla_rope_cave-1p1
+    endmap
+
+  map profmap
+    manilla_rope_cave-1s
+    break
+    manilla_rope_cave-1s1
+  endmap
+
+endsurvey
+

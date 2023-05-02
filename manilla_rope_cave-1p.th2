@@ -1,0 +1,1661 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -130.0 -470.0 669.5 953.5
+##XTHERION## xth_me_area_zoom_to 200
+
+# 2023.03.06 created by TopoDroid v. 5.1.40
+
+
+
+
+scrap manilla_rope_cave-1p -projection plan -scale [0 0 39.3701 0 0 0 1 0 m]
+
+line dripline -visibility off
+  166.0 -285.5
+  166.0 -285.5 264.08 -318.64 286.29 -316.82
+  smooth off
+endline
+
+point 218.5 -191.5 passage-height -value [11 ft]
+
+point 329.0 436.0 passage-height -value [2 ft]
+
+point 322.0 -83.0 passage-height -value [5 ft]
+
+point 423.25 170.25 gradient -orientation 200
+
+point 414.49 568.67 station -name "A8"
+
+point 432.56 434.07 station -name "A6"
+
+point 276.09 184.73 station -name "A4"
+
+point 384.04 476.48 station -name "A7"
+
+point 385.22 266.62 station -name "A5"
+
+point 454.5 -218.5 label -text "<center>1 inch Manilla rope<br>tied around boulder" -scale s
+
+line arrow
+  435.5 -217.0
+  267.5 -202.5
+endline
+
+line arrow
+endline
+
+line wall
+  205.01 -63.12
+  190.35 -61.71
+  177.77 -58.06
+  163.43 -56.21
+  150.07 -55.04
+  144.36 -60.65
+  142.35 -68.51
+  148.25 -82.34
+  146.08 -96.76
+  150.46 -111.18
+  147.79 -125.17
+  147.46 -140.08
+  144.01 -154.07
+  142.1 -169.22
+  140.77 -177.28
+  144.31 -184.57
+  153.1 -199.83
+  157.12 -208.22
+  160.2 -216.32
+  164.17 -230.96
+  161.45 -239.18
+  163.0 -255.5
+  163.0 -255.5 162.9 -265.95 166.4 -267.45
+  169.9 -268.95 164.0 -301.5 164.0 -301.5
+  smooth off
+endline
+
+line ceiling-step
+  205.5 -64.0
+  211.81 -76.65
+  217.88 -81.76
+  224.03 -88.21
+  232.11 -90.74
+  240.9 -93.3
+  249.99 -95.59
+  258.21 -98.34
+  264.98 -102.66
+  271.92 -108.57
+  283.54 -121.03
+  289.55 -127.43
+  294.12 -134.23
+  299.62 -141.09
+  304.0 -148.84
+  313.25 -155.25
+endline
+
+line pit
+  286.99 -300.87
+  280.41 -296.16
+  273.72 -291.54
+  259.1 -294.34
+  251.21 -292.73
+  237.09 -285.85
+  229.64 -282.5
+  221.15 -281.14
+  213.72 -278.31
+  198.67 -273.6
+  190.45 -271.48
+  182.75 -269.03
+  175.0 -267.05
+  166.4 -267.45
+endline
+
+point 188.0 -291.25 gradient -orientation 170
+
+point 268.0 -311.0 gradient -orientation 190
+
+line rock-border -close on
+  208.85 -257.9
+  193.23 -263.45
+  184.33 -252.76
+  179.68 -237.77
+  173.58 -223.13
+  169.26 -208.0
+  184.36 -205.6
+  193.8 -219.43
+  197.69 -236.03
+  204.68 -252.03
+  208.85 -257.9
+endline
+
+line rock-border -close on
+  275.24 -190.34
+  278.59 -205.98
+  276.06 -221.41
+  267.19 -230.53
+  257.39 -218.28
+  251.43 -203.64
+  248.82 -187.89
+  242.1 -173.25
+  238.89 -157.22
+  275.24 -190.34
+endline
+
+line rock-border -close on
+  222.5 -136.75
+  214.24 -127.67
+  209.94 -137.66
+  220.47 -152.11
+  225.53 -139.04
+  222.5 -136.75
+endline
+
+line rock-border -close on
+  275.27 -86.06
+  271.29 -103.13
+  270.59 -119.75
+  275.05 -135.32
+  286.15 -146.72
+  300.3 -147.67
+  307.08 -134.42
+  304.54 -117.22
+  298.48 -102.36
+  287.67 -90.34
+  274.89 -83.26
+  275.27 -86.06
+endline
+
+line rock-border -close on
+  278.67 -152.05
+  268.06 -165.41
+  274.26 -178.28
+  289.17 -176.73
+  293.14 -162.12
+  283.29 -151.97
+  278.67 -152.05
+endline
+
+line rock-border -close on
+  168.39 -194.42
+  167.38 -202.8
+  163.0 -195.75
+  168.39 -194.42
+endline
+
+line rock-border -close on
+  158.7 -175.64
+  161.0 -181.5
+  162.07 -175.07
+  158.7 -175.64
+endline
+
+line rock-border -close on
+  148.0 -159.75
+  149.75 -172.5
+  160.06 -171.51
+  153.31 -159.45
+  148.0 -159.75
+endline
+
+line rock-border -close on
+  177.0 -187.75
+  172.66 -194.94
+  188.36 -194.99
+  185.5 -187.75
+  177.0 -187.75
+endline
+
+line rock-border -close on
+  195.0 -96.5
+  198.56 -99.56
+  198.62 -84.13
+  193.26 -92.76
+  195.0 -96.5
+endline
+
+line rock-border -close on
+  222.25 -93.0
+  228.14 -96.08
+  222.89 -104.35
+  210.43 -94.09
+  218.34 -90.93
+  222.25 -93.0
+endline
+
+point 227.05 -257.63 sand
+
+point 255.73 -259.86 sand
+
+point 267.73 -262.39 sand
+
+point 242.67 -211.59 sand
+
+point 228.85 -216.73 sand
+
+point 216.09 -215.73 sand
+
+point 195.79 -176.02 sand
+
+point 185.61 -156.13 sand
+
+point 167.24 -146.85 sand
+
+point 173.80 -107.02 sand
+
+point 169.09 -84.24 sand
+
+point 219.57 -161.63 sand
+
+point 217.39 -114.61 sand
+
+point 293.82 -185.85 sand
+
+point 245.61 -132.40 sand
+
+line wall
+  280.52 -340.08
+  279.7 -331.81
+  281.88 -323.84
+  286.29 -316.82
+  288.0 -308.82
+  287.67 -300.82
+  287.73 -292.65
+  288.65 -284.76
+  290.21 -276.49
+  291.43 -267.94
+  294.83 -252.27
+  297.31 -244.54
+  299.05 -236.6
+endline
+
+line wall
+  302.48 -211.94
+  305.03 -203.94
+  307.92 -196.22
+  310.72 -188.54
+  315.07 -180.98
+  318.01 -173.55
+  316.66 -155.81
+endline
+
+line wall
+  299.05 -236.6
+  299.32 -228.57
+  302.48 -211.94
+endline
+
+line wall
+  214.36 -46.09
+  200.22 -45.68
+  196.82 -57.48
+  205.01 -63.12
+endline
+
+line wall
+  293.71 78.94
+  279.89 72.25
+  265.89 75.16
+  256.75 63.09
+  244.11 54.5
+  236.79 51.53
+  226.98 42.37
+  226.16 34.29
+  220.53 20.37
+  220.4 12.18
+  220.51 3.73
+  220.64 -5.06
+  216.62 -19.63
+  217.57 -35.73
+  214.36 -46.09
+endline
+
+line wall
+  316.66 -155.81
+  325.06 -155.13
+  332.29 -159.1
+  340.56 -160.19
+  350.1 -160.9
+  358.48 -161.2
+  371.2 -152.52
+  377.13 -146.62
+  391.65 -140.4
+endline
+
+line wall -reverse on
+  420.75 -78.57
+  418.88 -86.89
+  414.94 -102.93
+  411.54 -110.52
+  406.75 -118.03
+  391.65 -140.4
+endline
+
+line rock-border -close on
+  368.82 43.83
+  354.11 51.47
+  352.15 42.42
+  363.41 28.66
+  379.35 22.35
+  379.54 35.59
+  368.82 43.83
+endline
+
+line rock-border -close on
+  231.75 -66.25
+  232.59 -73.48
+  244.78 -66.3
+  233.84 -62.79
+  231.75 -66.25
+endline
+
+line rock-border -close on
+  248.85 -42.42
+  239.2 -33.67
+  241.16 -45.63
+  248.85 -42.42
+endline
+
+line rock-border -close on
+  223.5 -72.0
+  227.89 -66.05
+  219.65 -65.97
+  223.5 -72.0
+endline
+
+line rock-border -close on
+  338.42 -47.54
+  327.63 -60.26
+  337.55 -67.79
+  348.51 -53.87
+  341.75 -47.25
+  338.42 -47.54
+endline
+
+line rock-border -close on
+  290.0 30.75
+  296.66 28.85
+  293.75 41.0
+  287.28 35.86
+  290.0 30.75
+endline
+
+point 339.27 -102.06 sand
+
+point 299.81 -36.11 sand
+
+point 317.70 -4.49 sand
+
+point 350.47 -11.97 sand
+
+point 366.01 -60.43 sand
+
+point 377.31 -77.86 sand
+
+point 383.89 -90.96 sand
+
+point 299.84 -66.49 sand
+
+point 243.17 -17.98 sand
+
+point 263.59 34.10 sand
+
+point 265.71 4.78 sand
+
+point 261.12 -3.32 sand
+
+point 262.86 -113.18 sand
+
+point 235.20 -84.84 sand
+
+point 333.58 -126.94 sand
+
+line wall -reverse on
+  484.12 -54.88
+  475.96 -53.6
+  460.46 -50.39
+  452.66 -51.53
+  446.18 -56.32
+  439.63 -61.22
+  432.81 -65.51
+  432.81 -65.51 422.5 -70.0 420.75 -78.57
+  smooth off
+endline
+
+line wall
+  484.12 -54.88
+  493.5 -45.5 492.0 -37.26 492.0 -37.26
+  smooth off
+  493.01 -28.23
+  494.61 -20.05
+  496.33 -11.78
+  497.77 -3.27
+  499.18 5.08
+  502.23 12.53
+  502.96 28.06
+  507.45 34.91
+  512.91 40.62
+endline
+
+line wall
+  538.42 91.36
+  539.64 100.23
+  538.83 111.16
+  533.02 123.89
+endline
+
+line wall -reverse on
+  538.42 91.36
+  536.81 83.89
+  533.44 75.46
+  527.92 69.31
+  524.17 61.59
+  512.91 40.62
+endline
+
+line ceiling-step
+  341.13 52.92
+  342.19 42.72
+  343.71 25.8
+  344.55 15.93
+  344.66 6.55
+  344.94 -2.48
+  344.47 -11.01
+  345.94 -21.65
+  348.31 -30.21
+  353.36 -36.96
+  359.29 -43.16
+  366.72 -49.49
+  374.3 -53.19
+  383.17 -55.09
+  391.62 -56.45
+  399.67 -57.65
+  408.4 -58.17
+  418.54 -58.0
+endline
+
+line wall -reverse on
+  473.25 190.38
+  480.29 182.95
+  486.28 176.62
+  490.52 167.91
+  495.71 160.79
+  500.74 154.1
+  505.12 146.11
+  512.6 141.02
+  520.73 136.02
+  527.91 129.95
+  533.02 123.89
+endline
+
+line rock-border -close on
+  446.63 38.15
+  448.07 20.96
+  438.12 21.45
+  444.29 35.43
+  446.63 38.15
+endline
+
+line rock-border -close on
+  460.25 3.81
+  465.69 -12.97
+  455.28 -6.42
+  459.79 6.33
+  460.25 3.81
+endline
+
+line rock-border -close on
+  375.23 106.68
+  358.23 113.45
+  341.4 110.67
+  340.37 96.48
+  359.1 90.61
+  374.55 104.26
+  375.23 106.68
+endline
+
+line rock-border -close on
+  402.42 105.34
+  384.28 92.67
+  396.19 83.07
+  404.65 101.81
+  402.42 105.34
+endline
+
+line rock-border -close on
+  474.77 92.21
+  465.42 80.63
+  479.45 87.31
+  477.14 95.42
+  474.77 92.21
+endline
+
+line rock-border -close on
+  391.5 54.75
+  400.24 43.59
+  402.47 54.19
+  391.5 54.75
+endline
+
+point 409.13 23.09 pebbles -scale xs
+
+point 415.44 -16.56 pebbles -scale xs
+
+point 454.79 -21.76 pebbles -scale xs
+
+point 437.60 98.84 pebbles -scale xs
+
+point 373.13 56.40 pebbles -scale xs
+
+point 366.42 75.81 pebbles -scale xs
+
+point 429.99 137.16 pebbles -scale xs
+
+point 468.06 134.90 pebbles -scale xs
+
+point 502.35 95.15 pebbles -scale xs
+
+point 489.16 47.97 pebbles -scale xs
+
+point 471.21 27.79 pebbles -scale xs
+
+point 439.21 65.48 pebbles -scale xs
+
+point 425.23 -32.47 sand -scale xs
+
+point 440.16 3.32 sand -scale xs
+
+point 472.65 32.58 sand -scale xs
+
+point 469.58 71.46 sand -scale xs
+
+point 493.24 76.30 sand -scale xs
+
+point 490.19 119.76 sand -scale xs
+
+point 463.98 101.65 sand -scale xs
+
+point 480.32 164.62 sand -scale xs
+
+point 453.48 144.75 sand -scale xs
+
+point 450.41 123.75 sand -scale xs
+
+point 427.22 109.75 sand -scale xs
+
+point 423.30 87.83 sand -scale xs
+
+point 414.98 52.18 sand -scale xs
+
+point 393.17 29.26 sand -scale xs
+
+point 407.80 81.44 sand -scale xs
+
+point 388.50 -27.03 sand -scale xs
+
+point 363.51 14.90 sand -scale xs
+
+point 391.02 -11.42 sand -scale xs
+
+point 414.71 -50.61 sand -scale xs
+
+point 470.72 7.80 sand -scale xs
+
+point 517.71 109.75 sand -scale xs
+
+line wall
+  180.52 140.59
+  186.34 134.39
+  195.09 125.47
+  201.45 120.3
+  208.44 114.43
+  223.1 106.76
+  231.64 103.85
+  243.55 97.13
+endline
+
+line wall -reverse on
+  180.52 140.59
+  180.27 148.34
+  181.93 157.66
+  187.15 164.0
+  200.26 171.53
+  203.3 186.22
+  202.51 194.54
+  203.87 210.85
+  203.79 220.67
+  202.41 228.94
+  202.81 238.37
+  205.89 247.94
+  209.86 256.35
+  215.4 263.39
+endline
+
+line wall -reverse on
+  296.13 92.32
+  281.4 90.71
+  266.17 93.05
+  251.08 94.63
+  243.55 97.13
+endline
+
+line wall -close off
+  330.6 86.27
+  355.0 84.5 337.09 62.4 337.09 62.4
+  smooth off
+  328.23 67.07
+  325.83 77.13
+  330.6 86.27
+endline
+
+line wall
+  296.13 92.32
+  306.01 91.52
+  315.04 85.25
+  308.37 78.95
+  293.71 78.94
+endline
+
+line wall -reverse on
+  370.26 153.38
+  375.75 161.75
+  377.6 171.51
+endline
+
+point 358.0 498.0 height -value [15 ft]
+
+point 456.5 284.5 height -value [10 feet]
+
+point 355.5 274.5 passage-height -value [15 ft]
+
+point 284.0 206.0 passage-height -value [28 ft]
+
+point 386.0 69.0 passage-height -value [12 ft]
+
+point 312.0 201.5 height -value [15 ft]
+
+line wall
+  473.59 190.55
+  473.59 190.55 470.25 192.0 466.0 196.25
+  461.64 200.61 462.0 205.5 462.0 205.5
+  smooth off
+  462.14 214.55
+endline
+
+line ceiling-step
+  240.75 208.72
+  236.37 192.56
+  238.11 176.93
+  239.01 169.01
+  239.99 160.15
+  242.81 151.34
+  248.28 144.65
+  255.21 139.51
+  264.21 133.12
+endline
+
+line wall
+  273.25 268.0
+  269.03 270.36
+  260.92 271.94
+  252.09 272.24
+  243.66 272.05
+  234.14 270.2
+  225.96 267.91
+  215.4 263.39
+endline
+
+line ceiling-step
+  264.21 133.12
+  271.26 127.9
+  279.96 122.46
+  288.44 119.25
+  296.52 116.94
+  304.73 116.26
+endline
+
+line ceiling-step
+  292.28 244.28
+  283.95 242.46
+  274.76 240.37
+  267.18 236.7
+  258.97 231.67
+  247.57 219.62
+  240.75 208.72
+endline
+
+point 268.43 238.36 stalactite -scale xs
+
+point 259.70 236.92 stalactite -scale xs
+
+line rock-border -close on
+  299.26 159.44
+  289.2 146.28
+  292.22 128.12
+  298.26 111.12
+  299.26 159.44
+endline
+
+line rock-border -close on
+  281.75 112.64
+  281.75 127.03
+  271.42 117.54
+  283.52 110.14
+  281.75 112.64
+endline
+
+line rock-border -close on
+  291.25 175.25
+  292.33 181.58
+  294.61 197.32
+  298.61 214.34
+  289.94 226.17
+  277.86 215.95
+  267.04 202.05
+  263.86 184.62
+  269.98 165.59
+  282.49 157.19
+  289.09 170.75
+  291.25 175.25
+endline
+
+line pit -reverse on
+  290.25 245.75
+  290.25 245.75 323.67 230.76 330.21 192.63
+  smooth off
+endline
+
+line wall -reverse on
+  325.9 174.99
+  324.5 169.18
+  330.15 154.66
+  337.71 151.01
+  347.17 150.88
+  355.5 151.88
+  363.33 152.92
+  370.26 153.38
+endline
+
+line ceiling-step
+  304.73 116.26
+  313.81 124.47
+  318.05 131.79
+  321.34 139.02
+  323.57 146.83
+  324.93 154.85
+endline
+
+point 245.62 110.98 sand -scale xs
+
+point 243.52 126.46 sand -scale xs
+
+point 284.66 98.97 sand -scale xs
+
+point 220.35 143.29 sand -scale xs
+
+point 214.29 129.56 sand -scale xs
+
+point 215.51 180.46 sand -scale xs
+
+point 220.38 216.38 sand -scale xs
+
+point 242.24 248.12 sand -scale xs
+
+point 261.06 255.68 sand -scale xs
+
+point 225.22 253.01 sand -scale xs
+
+point 220.54 230.80 sand -scale xs
+
+point 219.48 192.86 sand -scale xs
+
+point 268.70 109.92 sand -scale xs
+
+point 398.81 148.95 sand -scale xs
+
+point 438.70 180.25 sand -scale xs
+
+point 391.36 118.73 sand -scale xs
+
+point 324.93 48.14 sand -scale xs
+
+point 274.79 141.41 pebbles -scale xs
+
+point 242.27 123.03 pebbles -scale xs
+
+point 222.42 225.90 pebbles -scale xs
+
+point 251.37 255.48 pebbles -scale xs
+
+point 214.04 134.23 pebbles -scale xs
+
+point 308.64 161.61 pebbles -scale xs
+
+point 331.26 127.30 pebbles -scale xs
+
+point 314.97 100.57 pebbles -scale xs
+
+point 364.87 134.47 pebbles -scale xs
+
+point 253.25 194.54 pebbles -scale xs
+
+point 258.50 146.74 pebbles -scale xs
+
+point 250.75 211.35 pebbles -scale xs
+
+point 311.58 186.74 pebbles -scale xs
+
+line wall -reverse on
+  273.25 268.0
+  278.38 254.53
+  290.25 245.75
+endline
+
+line wall
+  377.93 421.33
+  369.74 419.23
+  357.02 411.13
+  352.59 404.3
+  349.27 396.72
+  338.61 384.7
+  328.3 373.36
+  327.05 358.13
+  323.52 351.03
+  314.46 338.33
+  308.45 332.68
+  295.1 325.88
+  295.1 325.88 281.69 319.24 279.47 298.12
+  smooth off
+endline
+
+line wall
+  279.47 298.12
+  278.0 290.28
+  277.97 281.23
+  278.52 264.64
+  285.97 252.16
+  290.25 245.75
+endline
+
+line wall
+  419.87 265.05
+  413.64 258.8
+  421.54 247.32
+  424.17 239.23
+  417.7 233.34
+  410.07 228.95
+  406.38 221.44
+  405.25 218.0
+endline
+
+line wall
+  325.9 174.99
+  327.4 184.12
+  330.21 192.63
+  339.79 183.26
+  344.98 176.76
+  352.64 171.61
+  360.85 169.74
+  369.42 169.41
+  377.6 171.51
+  386.51 172.77
+  394.66 174.38
+  401.89 178.81
+  406.32 185.92
+  406.38 195.65
+  402.32 204.35
+  403.54 213.14
+  405.25 218.0
+endline
+
+point 504.68 242.08999999999997 label -text "<center>1 inch Manilla rope<br> hanging from ceiling" -scale s
+
+point 268.75 342.57 label -orientation 300 -scale xs -text "<center>Bat, packrat and<br>possible ringtail guano" -scale s
+
+line arrow
+  489.18 244.08999999999997
+  392.5 263.5
+endline
+
+line rock-border -close on
+  375.0 239.5
+  393.33 251.85
+  408.0 265.02
+  403.03 284.68
+  384.87 290.92
+  373.44 276.68
+  367.82 257.96
+  372.1 238.59
+  375.0 239.5
+endline
+
+point 370.18 225.49 pebbles -scale xs
+
+point 359.66 205.93 pebbles -scale xs
+
+point 326.28 243.23 pebbles -scale xs
+
+point 319.42 292.68 pebbles -scale xs
+
+point 363.32 298.63 pebbles -scale xs
+
+point 309.85 264.36 pebbles -scale xs
+
+point 297.15 298.14 pebbles -scale xs
+
+point 318.70 335.01 pebbles -scale xs
+
+point 357.80 316.33 pebbles -scale xs
+
+point 336.96 273.08 pebbles -scale xs
+
+point 402.48 232.29 pebbles -scale xs
+
+point 418.38 242.74 stalactite -scale xs
+
+line rock-border -close on
+  382.0 222.25
+  388.96 212.82
+  386.44 223.14
+  382.0 222.25
+endline
+
+line rock-border -close on
+  369.29 207.46
+  377.36 204.62
+  370.27 213.08
+  369.29 207.46
+endline
+
+line rock-border -close on
+  380.01 202.6
+  380.99 187.64
+  388.82 197.8
+  386.5 202.5
+  380.01 202.6
+endline
+
+line rock-border -close on
+  356.46 188.91
+  368.28 188.88
+  354.24 194.37
+  356.46 188.91
+endline
+
+line rock-border -close on
+  381.84 237.74
+  377.85 226.47
+  376.5 241.25
+  381.84 237.74
+endline
+
+line rock-border -close on
+  392.65 242.09
+  390.52 246.92
+  392.65 242.09
+endline
+
+point 291.75 -152.25 gradient -orientation 210
+
+point 248.25 -110.5 gradient -orientation 215
+
+point 203.5 -86.25 gradient -orientation 220
+
+point 490.25 58.75 gradient -orientation 190
+
+point 426.5 65.5 gradient -orientation 190
+
+point 356.25 74.5 gradient -orientation 200
+
+line rock-border -close on
+  344.0 234.0
+  336.8 225.07
+  355.28 222.29
+  349.27 236.21
+  344.0 234.0
+endline
+
+line rock-border -close on
+  335.23 318.03
+  345.65 304.28
+  345.22 321.36
+  335.23 318.03
+endline
+
+line rock-border -close on
+  313.02 310.06
+  301.23 288.6
+  319.58 297.38
+  318.0 305.25
+  313.02 310.06
+endline
+
+line rock-border -close on
+  337.22 290.85
+  337.55 268.9
+  344.67 288.89
+  337.22 290.85
+endline
+
+line rock-border -close on
+  346.5 356.5
+  342.02 337.92
+  358.58 336.51
+  357.54 351.02
+  349.66 358.95
+  346.5 356.5
+endline
+
+point 374.36 398.54 flowstone -scale xs
+
+point 432.42 396.85 flowstone -scale xs
+
+point 407.70 375.55 flowstone -scale xs
+
+point 427.20 366.04 flowstone -scale xs
+
+point 361.19 387.44 flowstone -scale xs
+
+point 443.76 367.35 flowstone -scale xs
+
+point 402.54 343.01 flowstone -scale xs
+
+point 373.0 389.5 gradient -orientation 210
+
+point 439.75 369.0 gradient -orientation 190
+
+point 400.25 377.75 gradient -orientation 200
+
+line rock-border -close on
+  394.28 360.91
+  383.17 350.27
+  400.03 343.93
+  418.45 344.35
+  401.33 363.33
+  394.28 360.91
+endline
+
+line pit
+  448.67 291.76
+  435.82 299.7
+  425.14 303.2
+  415.8 305.42
+  406.66 307.18
+  396.34 309.44
+  386.24 309.18
+endline
+
+line wall
+  451.36 406.84
+  442.52 424.51
+  448.55 436.43
+endline
+
+line wall
+  448.55 436.43
+  450.77 449.81
+  449.89 457.8
+  447.65 466.08
+  447.79 481.56
+  444.07 496.3
+  433.33 505.03
+  418.5 503.5
+  410.1 493.01
+endline
+
+line wall -close off
+  375.4 422.95
+endline
+
+line wall
+  404.86 468.08
+  413.82 457.9
+  418.12 445.23
+  404.88 444.18
+  395.94 437.22
+  388.28 425.82
+  377.93 421.33
+endline
+
+line ceiling-step -reverse on
+  412.0 494.5
+  412.0 494.5 413.5 475.5 408.0 463.5
+  smooth off
+endline
+
+line ceiling-step
+  415.5 453.5
+  424.5 451.0 440.5 438.0 445.0 433.0
+  smooth off
+endline
+
+line pit
+  442.52 424.51
+  428.72 437.83 417.83 444.8 417.83 444.8
+  smooth off
+endline
+
+line ceiling-step
+endline
+
+line ceiling-step -reverse on
+  413.82 457.9
+  419.32 473.4 419.0 487.5 415.5 499.5
+  smooth off
+endline
+
+line pit -reverse on
+  406.34 498.83
+  408.8 490.4 409.72 478.16 404.86 468.08
+  smooth off
+endline
+
+line pit -reverse on
+  373.52 496.66
+  373.52 496.66 384.43 507.41 406.34 498.83
+  smooth off
+endline
+
+line wall
+endline
+
+line wall
+  410.1 493.01
+  406.34 498.83
+  412.44 512.43
+  415.66 527.0
+  418.9 542.34
+  426.25 555.93
+  429.78 567.93
+endline
+
+line pit
+  365.98 470.47
+  365.98 470.47 380.72 457.91 404.86 468.08
+  smooth off
+endline
+
+line wall
+  369.6 484.4
+  365.98 470.47
+  365.65 455.92
+  371.16 443.66
+  379.93 437.55
+  388.69 447.86
+  399.92 456.01
+  404.86 468.08
+endline
+
+line wall
+  387.64 583.27
+  384.32 575.94
+  378.45 561.63
+  377.07 547.13
+  376.38 533.92
+  375.19 525.95
+  374.28 511.33
+  373.52 496.66
+  369.6 484.4
+endline
+
+line wall
+  451.64 744.66
+  447.34 735.17
+  442.89 724.89
+  440.59 714.25
+  436.92 704.16
+  433.66 693.56
+  431.25 683.84
+  430.54 673.16
+  428.99 662.29
+  424.5 651.39
+  417.79 643.01
+  410.85 634.03
+  405.25 623.17
+  401.1 612.74
+  396.46 601.99
+  393.09 591.16
+  387.64 583.27
+endline
+
+line wall -subtype blocks
+  472.75 760.75
+  472.75 760.75 473.75 775.0 473.5 776.5
+  473.25 778.0 471.25 841.75 456.75 781.0
+  454.98 773.6 455.13 764.09 455.13 764.09
+  smooth off
+endline
+
+point 396.0 522.5 gradient -orientation 188
+
+line wall
+  429.78 567.93
+  431.32 575.73
+  436.22 586.23
+  440.74 599.69
+  444.34 611.3
+  446.64 621.42
+  449.83 634.03
+  452.05 647.16
+  454.5 660.36
+  456.61 674.49
+  456.98 686.14
+  457.61 698.38
+  461.17 710.73
+  464.59 720.7
+  468.29 731.31
+  469.67 741.92
+  472.75 760.75
+endline
+
+point 479.43 822.82 continuation -text "low promise breakdown dig"
+
+line wall
+  455.13 764.09
+  453.65 752.26
+  451.64 744.66
+endline
+
+point 445.56 694.62 pebbles -scale xs
+
+point 441.78 653.02 pebbles -scale xs
+
+point 438.99 624.03 pebbles -scale xs
+
+point 406.79 600.94 pebbles -scale xs
+
+point 429.89 589.95 pebbles -scale xs
+
+point 409.70 465.98 flowstone -scale xs
+
+point 416.92 488.89 flowstone -scale xs
+
+point 438.10 483.50 flowstone -scale xs
+
+point 429.12 464.90 sand -scale xs
+
+point 389.21 538.87 sand -scale xs
+
+point 409.88 598.85 sand -scale xs
+
+point 432.34 657.98 sand -scale xs
+
+point 417.43 619.52 sand -scale xs
+
+point 393.28 500.17 sand -scale xs
+
+point 409.37 557.30 sand -scale xs
+
+point 426.82 485.87 sand -scale xs
+
+line wall
+  419.87 265.05
+  427.53 274.21
+  436.83 278.79
+  443.94 283.85
+  448.67 291.76
+  455.66 298.23
+  460.21 306.65
+  465.95 313.09
+  473.79 317.97
+  478.3 324.81
+  480.29 333.44
+  479.13 342.08
+  471.84 348.37
+  465.7 355.36
+  461.73 363.93
+  462.31 372.63
+  460.21 380.93
+  457.46 389.63
+  453.25 398.66
+  451.36 406.84
+endline
+
+point 196.85 -236.22 station -name "A1"
+
+point 274.81 -83.98 station -name "A2"
+
+point 367.16 38.14 station -name "A3"
+
+point 276.09 184.73 station -name "A4"
+
+point 385.22 266.62 station -name "A5"
+
+point 432.56 434.07 station -name "A6"
+
+point 384.04 476.48 station -name "A7"
+
+point 414.49 568.67 station -name "A8"
+
+point 453.68 741.72 station -name "A9"
+
+point 462.47 219.17 station -name "A12"
+
+point 398.58 305.99 station -name "A13"
+
+point 403.73 407.83 station -name "A14"
+
+point 334.99 460.86 station -name "A15"
+
+point 288.16 651.96 station -name "A16"
+
+line arrow
+  447.5 538.0
+  392.5 482.5
+endline
+
+point 457.0 541.0 label -text cupola -scale s
+
+endscrap
+
+
+
+scrap manilla_rope_cave-1p1 -projection plan -scale [0 0 39.3701 0 0 0 1 0 m]
+
+line wall
+  462.14 214.55
+  461.2 228.86
+  459.77 243.17
+  453.85 253.18
+  447.4 261.29
+endline
+
+line wall
+  447.39 261.66
+  442.52 271.91
+  437.08 281.89
+  434.68 292.64
+  435.56 302.1
+endline
+
+line wall
+  435.56 302.1
+  435.01 311.36
+  431.28 320.19
+endline
+
+line wall
+  430.49 330.62
+  430.39 339.8
+  426.07 348.15
+  419.55 355.25
+  413.65 362.81
+  411.33 372.73
+  412.4 382.27
+  416.03 391.06
+  419.66 400.88
+endline
+
+line wall
+  369.08 395.71
+  369.41 385.21
+  369.32 373.28
+  373.39 363.03
+  382.43 357.29
+  392.4 352.91
+  397.35 345.13
+endline
+
+line wall
+  397.35 345.13
+  387.56 341.65
+  379.59 342.31
+  377.08 335.22
+  380.37 326.47
+  384.91 317.84
+  390.14 311.04
+endline
+
+line wall
+  431.28 320.19
+  430.49 330.62
+endline
+
+line wall
+  419.66 400.88
+  421.27 417.61
+  422.44 428.42
+  415.12 434.92
+  405.08 437.1
+  396.92 442.18
+  390.53 450.47
+  381.11 455.52
+  372.8 462.56
+  364.51 469.77
+endline
+
+line wall
+  364.51 469.77
+  351.45 466.9
+  344.11 471.29
+  339.39 480.71
+  337.65 491.26
+  334.63 501.42
+  331.55 511.06
+  326.43 519.72
+endline
+
+line wall
+  289.72 655.45
+  283.92 650.38
+  276.33 647.58
+  269.11 643.73
+  262.06 638.47
+  251.68 626.81
+  248.75 617.89
+  245.52 602.82
+  245.8 594.6
+  246.23 586.19
+  247.45 578.22
+  249.7 563.17
+  254.04 547.77
+  252.76 539.66
+  249.18 524.07
+  250.11 515.23
+  254.31 500.13
+  255.91 484.75
+  257.13 476.59
+  254.44 461.89
+  262.09 449.67
+  266.48 434.64
+  274.75 421.22
+  280.31 415.09
+  294.68 408.26
+  311.49 407.53
+  328.44 407.45
+endline
+
+line wall
+  326.43 519.72
+  326.16 527.6
+  321.55 542.94
+  321.99 551.78
+  323.18 559.81
+  325.27 567.75
+  326.89 583.13
+  326.81 591.32
+  325.73 599.94
+  324.7 609.3
+  324.02 618.03
+  323.45 626.57
+  321.8 635.57
+  318.92 643.19
+  314.58 650.08
+  300.67 655.61
+  289.72 655.45
+endline
+
+line wall
+  390.14 311.04
+  398.54 304.48
+  400.0 296.0
+endline
+
+line wall -close off
+  394.74 226.14
+endline
+
+point 388.75 178.5 gradient -orientation 190
+
+line wall
+  366.19 201.32
+  366.19 201.32 362.25 193.5 366.5 186.5
+  371.67 177.99 377.6 171.51 377.6 171.51
+  smooth off
+endline
+
+line wall
+  394.74 226.14
+  381.07 214.72
+  372.66 206.37
+  366.19 201.32
+endline
+
+line wall
+  400.0 296.0
+  398.94 280.48
+  400.11 268.84
+  402.45 256.83
+  405.11 245.4
+  403.34 234.73
+  394.74 226.14
+endline
+
+line wall
+  328.44 407.45
+  338.84 410.58
+  348.63 410.22
+  358.74 408.64
+  367.67 404.23
+  369.08 395.71
+endline
+
+point 279.75 623.61 guano
+
+point 279.28 571.16 guano
+
+point 306.42 529.45 guano
+
+point 273.57 486.05 guano
+
+point 306.01 438.60 guano
+
+point 436.82 248.77999999999997 guano
+
+point 409.41 327.39 guano
+
+point 388.49 409.06 guano
+
+point 357.61 439.30 guano
+
+point 298.97 604.42 pebbles
+
+point 270.23 531.71 pebbles
+
+point 313.90 484.29 pebbles
+
+point 309.02 428.62 pebbles
+
+point 378.50 433.12 pebbles
+
+point 415.77 331.83 pebbles
+
+point 422.14 270.80 pebbles
+
+line rock-border -close on
+  333.81 469.89
+  324.35 457.19
+  321.84 446.83
+  336.72 449.01
+  341.02 461.71
+  333.81 469.89
+endline
+
+line rock-border -close on
+  374.58 416.39
+  370.67 403.07
+  380.08 404.6
+  378.59 412.48
+  374.58 416.39
+endline
+
+line rock-border -close on
+  377.49 394.4
+  376.45 378.76
+  381.79 391.92
+  377.49 394.4
+endline
+
+line rock-border -close on -reverse on
+  385.42 373.57
+  392.04 365.64
+  381.75 366.25
+  385.42 373.57
+endline
+
+line rock-border -close on -reverse on
+  387.34 334.72
+  394.25 338.75
+  398.25 333.75
+  387.34 334.72
+endline
+
+line rock-border -close on
+  390.64 325.0
+  394.82 312.34
+  393.49 323.2
+  390.64 325.0
+endline
+
+line rock-border -close on
+  426.09 229.32
+  421.54 217.16
+  430.67 219.49
+  430.5 228.5
+  426.09 229.32
+endline
+
+line rock-border -close on
+  382.25 205.25
+  379.59 190.28
+  384.91 202.64
+  382.25 205.25
+endline
+
+line rock-border -close on
+  399.11 224.56
+  399.27 207.69
+  404.93 221.64
+  399.11 224.56
+endline
+
+line rock-border -close on
+  395.96 194.68
+  392.05 177.69
+  401.07 190.3
+  395.96 194.68
+endline
+
+point 428.52 166.71 pebbles
+
+point 424.04 201.10 guano
+
+point 233.84000000000003 530.0699999999999 label -orientation 265 -text "The Tannin Crawl" -scale s
+
+point 462.47 219.17 station -name "A12"
+
+point 398.58 305.99 station -name "A13"
+
+point 403.73 407.83 station -name "A14"
+
+point 334.99 460.86 station -name "A15"
+
+point 288.16 651.96 station -name "A16"
+
+point 225.75 -311.5 label -orientation 195 -text "Entrance"
+
+point 417.0 289.0 passage-height -value [3 ft]
+
+point 298.97 604.42 passage-height -value [3 ft]
+
+point 286.0 553.5 passage-height -value [3 ft]
+
+endscrap
+
+

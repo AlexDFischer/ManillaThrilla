@@ -1,0 +1,206 @@
+encoding  utf-8
+###############################################################################
+#MASTER MASTER MASTER MASTER MASTER MASTER MASTER MASTER MASTER MASTER MASTER #
+###############################################################################
+
+layout master
+  legend on
+  scale 1 400
+  base-scale 1 100
+  units imperial
+  page-setup 80 40 78 38 0.5 0.5 in
+  size 75 29 in
+  nav-size 1 1
+  nav-factor 15
+  overlap 1 in
+  symbol-set NSS
+  symbol-assign line ceiling-step UIS
+  symbol-assign line ceiling-meander UIS
+  #statistics all
+  symbol-show group centreline
+  symbol-show line survey
+  debug station-names
+  #debug all
+
+
+ code metapost
+  def l_survey_cave (expr p) =
+    pickup PenC;
+    draw p withcolor 0.5red;
+  enddef;
+
+  def p_continuation(expr pos,theta,sc,al) =
+
+    % draw default continuation symbol
+    p_continuation_UIS(pos,theta,sc,al);
+
+    % if text attribute is set
+    if known(ATTR__text) and picture(ATTR__text):
+
+    % set labeling color to light orange
+    push_label_fill_color(1.0, 0.9, 0.8);
+
+    % draw filled label with text next to ?
+    p_label.bot(ATTR__text, pos shifted (0,-0.5u), 0.0, 8);
+
+    % restore original labeling color
+    pop_label_fill_color;
+
+    fi;
+  enddef;
+
+endcode
+
+endlayout
+
+###############################################################################
+#SVG SVG SVG SVG SVG SVG SVG SVG SVG SVG SVG SVG SVG SVG SVG SVG SVG SVG SVG  #
+###############################################################################
+
+layout svg
+  legend on
+  scale 1 100
+  rotate 90
+  base-scale 1 100
+  #transparency on
+  #opacity 50
+  symbol-set NSS
+  units imperial
+  symbol-assign line ceiling-step UIS
+  symbol-assign line ceiling-meander UIS
+  #statistics all
+  symbol-hide group centreline
+  symbol-hide line survey
+  #debug station-names
+  #debug all
+  map-comment "Location: 32.93076, -107.23296. Access entrance by 20ft rappel over cliff.<br>Surveyed by: Alex Fischer, Pete Johnson. 2023.<br>Cartography: Christian DeCelle, Alex Fischer."
+  statistics carto all
+  
+  doc-title "Manilla Thrilla Cave"
+
+code metapost
+  p_label_mode_height:=6;
+
+  def l_survey_cave (expr p) =
+    pickup PenC;
+    draw p withcolor 0.5red;
+  enddef;
+
+  def p_continuation(expr pos,theta,sc,al) =
+
+    % draw default continuation symbol
+    p_continuation_UIS(pos,theta,sc,al);
+
+    % if text attribute is set
+    if known(ATTR__text) and picture(ATTR__text):
+
+    % set labeling color to light orange
+    push_label_fill_color(1.0, 0.9, 0.8);
+
+    % draw filled label with text next to ?
+    p_label.bot(ATTR__text, pos shifted (0,-0.5u), 0.0, 8);
+
+    % restore original labeling color
+    pop_label_fill_color;
+
+    fi;
+  enddef;
+
+endcode
+
+endlayout
+
+###############################################################################
+#DEBUG DEBUG DEBUG DEBUG DEBUG DEBUG DEBUG DEBUG DEBUG DEBUG DEBUG DEBUG DEBUG#
+###############################################################################
+
+layout debug
+  legend on
+  scale 1 200
+  symbol-set NSS
+  symbol-assign line ceiling-step UIS
+  symbol-assign line ceiling-meander UIS
+  #statistics all
+  symbol-show group centreline
+  symbol-show line survey
+  debug all
+  
+  code metapost
+    def l_survey_cave (expr p) =
+    pickup PenC;
+    draw p withcolor 0.5green;
+   
+  enddef;
+  endcode
+
+endlayout
+
+###############################################################################
+#LINEPLOT LINEPLOT LINEPLOT LINEPLOT LINEPLOT LINEPLOT LINEPLOT LINEPLOT      #
+###############################################################################
+
+layout lineplot
+  legend on
+  scale 1 2000
+  base-scale 1 750
+  symbol-set NSS
+  symbol-assign line ceiling-step UIS
+  symbol-assign line ceiling-meander UIS
+  #statistics all
+  symbol-show group centreline
+  symbol-show line survey
+  #debug all
+  
+  code metapost
+    def l_survey_cave (expr p) =
+    pickup PenC;
+    draw p withcolor 0.5green;
+   
+  enddef;
+  endcode
+
+endlayout
+
+###############################################################################
+#MICHAEL MICHAEL MICHAEL MICHAEL MICHAEL MICHAEL MICHAEL MICHAEL MICHAEL      #
+###############################################################################
+
+layout michael
+  legend on
+  scale 1 200
+  symbol-set NSS
+  #statistics all
+  # symbol-show group centreline
+  # symbol-show line survey
+  code metapost
+  def p_continuation(expr pos,theta,sc,al) =
+
+  % draw default continuation symbol
+  p_continuation_UIS(pos,theta,sc,al);
+
+  % if text attribute is set
+  if known(ATTR__text) and picture(ATTR__text):
+
+  % set labeling color to light orange
+  push_label_fill_color(1.0, 0.9, 0.8);
+
+  % draw filled label with text next to ?
+  p_label.bot(ATTR__text, pos shifted (0,-0.5u), 0.0, 8);
+
+  % restore original labeling color
+  pop_label_fill_color;
+
+  fi;
+  enddef;
+
+  endcode
+debug station-names
+  code metapost
+    def l_survey_cave (expr p) =
+    pickup PenC;
+    draw p withcolor 0.5red;
+   
+  enddef;
+  endcode
+endlayout
+

@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 56.29m (surface 0.00m, duplicated 0.00m)\nvertical range: 20.84m (from A9@ManillaThrilla at 325.64m to A1@ManillaThrilla at 304.80m)\nnorth-south range: 25.19m (from A9@ManillaThrilla at 35.23m to A1@ManillaThrilla at 10.04m)\neast-west range: 6.01m (from A12@ManillaThrilla at -26.67m to A1@ManillaThrilla at -32.68m)\nnumber of shots: 13\nnumber of stations: 14"
+xth_cp_data_tree_insert 25 1 1 ManillaThrilla ManillaThrilla "Manilla Thrilla Cave" "Manilla Thrilla Cave" "length: 56.29m (surface 0.00m, duplicated 0.00m)\nvertical range: 20.84m (from A9@ManillaThrilla at 325.64m to A1@ManillaThrilla at 304.80m)\nnorth-south range: 25.19m (from A9@ManillaThrilla at 35.23m to A1@ManillaThrilla at 10.04m)\neast-west range: 6.01m (from A12@ManillaThrilla at -26.67m to A1@ManillaThrilla at -32.68m)\nnumber of shots: 13\nnumber of stations: 14"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 elevation\[270.0\] {} {} {}
+xth_cp_map_tree_insert map 1 545X1 p1 1 planMap planMap@ManillaThrilla "" ""
+xth_cp_map_tree_insert map 1 546X1 p2 1 profmap profmap@ManillaThrilla "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 56 4
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1683006443
+

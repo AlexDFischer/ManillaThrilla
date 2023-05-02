@@ -1,0 +1,9 @@
+encoding  utf-8
+source ManillaThrilla.th
+input layouts.lyt
+
+
+export map -projection plan -layout svg -o "manila_plan.svg"
+export map -projection plan -layout svg -o "manila_plan.pdf"
+export map -projection [elevation 270] -layout svg -o "manila_prof.svg"
+export map -projection [elevation 270] -layout svg -o "manila_prof.pdf"
